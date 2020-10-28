@@ -2,6 +2,12 @@
 
 ## To upload to G-cloud
 
+This project runs on `enso.buro@gmail.com`. To check which credential accounts you have, run:
+
+```
+gcloud auth list
+```
+
 ```
 npm run deploy
 ```
