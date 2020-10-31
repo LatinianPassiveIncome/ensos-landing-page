@@ -1,7 +1,7 @@
 .header {
   position: relative;
   display: block;
-  height: 20vh;
+  height: 18vh;
   min-height: 130px;
   padding: 0px;
   -webkit-box-orient: vertical;
@@ -38,7 +38,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
+  height: 50%;
   max-width: 98vw;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -111,8 +111,8 @@
 .main-heading-text {
   margin-bottom: 5px;
   font-family: Genath, sans-serif;
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 30px;
+  line-height: 32px;
 }
 
 .menu {
@@ -164,14 +164,14 @@
 .features-title {
   margin-bottom: 5px;
   font-family: Genath, sans-serif;
-  font-size: 13px;
-  line-height: 17px;
+  font-size: 18px;
+  line-height: 19px;
 }
 
 .description {
   margin-bottom: 0px;
   font-family: Foundersgrotesk, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 18px;
 }
 
@@ -186,7 +186,7 @@
 }
 
 .why-webflow {
-  height: 50vh;
+  height: 100vh;
 }
 
 .aboutus {
@@ -216,7 +216,7 @@
   display: -ms-flexbox;
   display: flex;
   max-width: 50vw;
-  padding-left: 20px;
+  padding-left: 0px;
   -webkit-box-ordinal-group: 0;
   -webkit-order: -1;
   -ms-flex-order: -1;
@@ -289,9 +289,11 @@
 }
 
 .heading-selling-points {
+  margin-top: 10px;
   margin-bottom: 0px;
   font-family: 'Genath displayita', sans-serif;
   font-size: 20px;
+  line-height: 25px;
   font-style: italic;
   font-weight: 400;
 }
@@ -306,6 +308,8 @@
 }
 
 .body {
+  padding-right: 10px;
+  padding-left: 10px;
   font-family: Foundersgrotesk, sans-serif;
 }
 
@@ -320,7 +324,7 @@
 }
 
 .main-heading-container {
-  max-width: 35vw;
+  max-width: 50vw;
 }
 
 .logo-subtitle {
@@ -389,7 +393,7 @@
   width: 70%;
   margin-top: 10px;
   margin-left: 120px;
-  line-height: 14px;
+  line-height: 16px;
 }
 
 .plan {
@@ -424,14 +428,14 @@
 }
 
 .bio {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .address {
-  margin-bottom: 70px;
-  font-size: 28px;
-  line-height: 30px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  line-height: 27px;
 }
 
 .studio-text {
@@ -479,8 +483,12 @@
   }
 
   .main-heading-text {
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .menu {
+    margin-top: 20px;
   }
 
   .feature-container {
@@ -488,17 +496,17 @@
   }
 
   .features-title {
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 19px;
   }
 
   .description {
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 15px;
   }
 
   .feature {
-    margin-top: 40px;
+    margin-top: 15px;
   }
 
   .person {
@@ -572,14 +580,14 @@
   }
 
   .address {
-    font-size: 42px;
-    line-height: 43px;
+    font-size: 37px;
+    line-height: 39px;
   }
 
   .text-block {
     font-family: 'Genath displayita', sans-serif;
-    font-size: 29px;
-    line-height: 46px;
+    font-size: 23px;
+    line-height: 25px;
   }
 }
 
@@ -589,12 +597,15 @@
   }
 
   .container {
+    height: 50%;
     max-width: 95vw;
+    min-height: 300px;
   }
 
   .container.aboutus {
     min-height: 650px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -607,7 +618,8 @@
   }
 
   .main-heading-text {
-    font-size: 20px;
+    font-size: 25px;
+    line-height: 22px;
   }
 
   .feature-container {
@@ -620,7 +632,7 @@
   }
 
   .why-webflow {
-    height: 50vh;
+    height: 100vh;
     min-height: 400px;
   }
 
@@ -632,7 +644,7 @@
   .person {
     width: 16vw;
     margin-right: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
@@ -659,6 +671,7 @@
     width: 100%;
     max-width: 55vw;
     margin-bottom: 0px;
+    padding-left: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -692,7 +705,7 @@
   }
 
   .main-heading-container {
-    max-width: 65vw;
+    max-width: 80vw;
   }
 
   .webflow-features {
@@ -721,6 +734,7 @@
   }
 
   .bio {
+    font-size: 13px;
     text-align: left;
   }
 
@@ -744,6 +758,11 @@
     height: auto;
     max-height: 25vh;
     min-height: 120px;
+  }
+
+  .logo {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
   }
 
   .hero {
@@ -773,16 +792,29 @@
   }
 
   .reflink {
+    height: 1.5em;
+    margin-bottom: 0px;
     font-size: 16px;
+    line-height: 18px;
   }
 
   .main-heading-text {
-    font-size: 15px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .feature-container {
     width: 80%;
+  }
+
+  .features-title {
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .description {
+    font-size: 12px;
+    line-height: 14px;
   }
 
   .why-webflow {
@@ -793,7 +825,7 @@
   .aboutus {
     height: auto;
     max-height: 100vh;
-    min-height: 350px;
+    min-height: 320px;
   }
 
   .person {
@@ -818,14 +850,15 @@
   .beauty-people {
     width: auto;
     max-width: 70vw;
+    padding-left: 0px;
   }
 
   .contact {
     max-width: 25vw;
     margin-top: 5px;
-    -webkit-align-self: flex-end;
-    -ms-flex-item-align: end;
-    align-self: flex-end;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
   }
 
   .paragraph {
@@ -861,6 +894,7 @@
   .description-subtext {
     width: 100%;
     margin-left: 50px;
+    font-size: 12px;
   }
 
   .plan {
@@ -873,10 +907,14 @@
     width: 90vw;
   }
 
+  .bio {
+    font-size: 12px;
+  }
+
   .address {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
     line-height: 15px;
   }
 
@@ -911,6 +949,11 @@
     clear: none;
   }
 
+  .logo {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+
   .hero {
     position: static;
     height: auto;
@@ -931,9 +974,10 @@
     display: -ms-flexbox;
     display: flex;
     height: 100%;
-    max-height: 100vh;
     margin-top: 0px;
+    margin-bottom: 10px;
     padding-top: 25px;
+    padding-bottom: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -952,9 +996,17 @@
     align-self: flex-end;
   }
 
+  .reflink {
+    height: 1.5em;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+
   .main-heading-text {
     margin-bottom: 0px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
   }
 
@@ -1040,6 +1092,7 @@
   .beauty-people {
     max-width: 100%;
     margin-top: 0px;
+    padding-left: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1134,7 +1187,7 @@
   .description-subtext {
     width: 100%;
     margin-left: 35px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .plans {
@@ -1147,6 +1200,7 @@
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
     align-self: flex-end;
+    font-size: 13px;
   }
 
   .div-block-3 {
